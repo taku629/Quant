@@ -1,0 +1,13 @@
+{
+  "seed": 7,
+  "symbols": 4,
+  "periods": 1000,
+  "events": 4000,
+  "fills": 823,
+  "wall_seconds": 0.7441873729999884,
+  "events_per_second": 5374.99041924763,
+  "python_peak_bytes": 1627326,
+  "python": "3.12.13",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "scope": "generator + bar simulator; excludes install/startup"
+}
