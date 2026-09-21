@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-21T08:06:42.509882+00:00",
+  "runtime_seconds": 0.023146,
+  "seed": 21,
+  "dataset": {
+    "provenance": "deterministic synthetic generator",
+    "sha256": "5122a2f52c2f6361cfe06e5b54045673034a6a57418f69aa438c110a56a706f8"
+  },
+  "split": {
+    "train": 144,
+    "validation": 48,
+    "test": 48
+  },
+  "strategy": {
+    "baselines": [
+      "buy_hold",
+      "momentum",
+      "mean_reversion"
+    ]
+  },
+  "code_sha": "640138ece1f1df9006109ce6ff8561c6e58fd757",
+  "metrics": {
+    "buy_hold": {
+      "oos_gross_equity": "9996.18",
+      "oos_net_equity": "9996.07",
+      "fills": 1
+    },
+    "momentum": {
+      "oos_gross_equity": "9994.73",
+      "oos_net_equity": "9993.85",
+      "fills": 8
+    },
+    "mean_reversion": {
+      "oos_gross_equity": "10002.91",
+      "oos_net_equity": "10001.53",
+      "fills": 13
+    }
+  },
+  "simulator_assumptions": {
+    "fill": "next open",
+    "fee_rate": "0.001",
+    "negative_control": "regime reversal in synthetic generator"
+  },
+  "warning": "Synthetic results and repeated parameter searches do not establish alpha."
+}
